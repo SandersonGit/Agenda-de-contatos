@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css">
+    <title>Agenda de Conatos</title>
+  </head>
+  <body>
+    <header>
+        <img class="img-header" src="assets/old-typical-phone_13936.png" alt="">
+        <h1 class="titulo">Agenda de Contatos</h1>
+    </header>
+    <article>
+        <section class="sec1">
+            <form action="" id="form">
+                <label for="name">Contato</label>
+                <input type="text" id="name" required placeholder="Nome">
+                <label for="tel">Número</label>
+                <input type="tel" id="tel" required placeholder="Telefone">
+                <button type="submit">Adicionar</button>
+                
+                    
+                
+            </form>
+        </section>
+        <section>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome do Contato</th>
+                        <th>Número do Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="nome"></td>
+                        <td id="telefone"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        
+
+
+
+    </article>
+
+    <script src="main.js"></script>
+  </body>
+</html>
